@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <remote name="anying" fetch="https://github.com/anyinglulu1/" />
-
-  <remote name="Redmi-note-4x" fetch="https://github.com/Redmi-note-4x" />
+  <!-- Remote -->
+       <remote name="anying" fetch="https://github.com/anyinglulu1/" />
+       <remote name="Redmi-note-4x" fetch="https://github.com/Redmi-note-4x" />
 
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="platform_device_xiaomi_mido" remote="I" revision="evo-12" />
