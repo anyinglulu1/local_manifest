@@ -2,7 +2,6 @@
 <manifest>
   <!-- Remote -->
        <remote name="a" fetch="https://github.com/anyinglulu1" />
-
        <remote name="Redmi-note-4x" fetch="https://github.com/Redmi-note-4x" />
 
   <!-- Trees -->
