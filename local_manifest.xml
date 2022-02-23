@@ -9,17 +9,13 @@
 
        <remote name="I" fetch="https://github.com/RasyidAlKautsar" />
 
-       <remote name="Redmi-note-4x" fetch="https://github.com/Redmi-note-4x" />
+       <remote name="kings" fetch="https://github.com/Redmi-note-4x" />
 
        <remote name="Alone0316" fetch="https://github.com/Alone0316" />
 
-       <remote name="Linos" fetch="https://github.com/LineageOS" />
-
-       <remote name="GhostMaster69-dev" fetch="https://github.com/GhostMaster69-dev" />
-
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="a" revision="xtended" />
-        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="I" revision="staging" />
+        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="kings" revision="staging" />
         <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Alone0316" revision="normal" />
 
 </manifest>
