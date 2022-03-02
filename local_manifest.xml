@@ -14,7 +14,7 @@
        <remote name="Alone0316" fetch="https://github.com/Alone0316" />
 
   <!-- Trees -->
-        <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="a" revision="xtended" />
+        <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="a" revision="cr-12.0/>
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="kings" revision="staging" />
         <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Alone0316" revision="normal" />
 
