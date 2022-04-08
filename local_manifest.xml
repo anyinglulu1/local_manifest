@@ -1,22 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Remote -->
-       <remote name="a" fetch="https://github.com/anyinglulu1" />
 
-       <remote name="Redmi-note-4x" fetch="https://github.com/Redmi-note-4x" />
-
-       <remote name="los" fetch="https://github.com/LineageOS" />
-
-       <remote name="I" fetch="https://github.com/RasyidAlKautsar" />
-
-       <remote name="kings" fetch="https://github.com/Redmi-note-4x" />
-
-       <remote name="Alone0316" fetch="https://github.com/Alone0316" />
-
-  <!-- Trees -->
-        <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="a" revision="cr-12.0/>
-        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="kings" revision="staging" />
-        <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Alone0316" revision="normal" />
-
+ <!-- remotes -->
+ <remote name="a" fetch="https://github.com/anyinglulu1" />
+ <remote name="i" fetch="https://github.com/ArrowOS-Devices" />
+ <remote name="l" fetch="https://github.com/PixelExperience-Devices" />
+ <!-- Trees -->
+ <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="a" revision="twelve" />
+ <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="a" revision="twelve" />
+ <project path="vendor/xiaomi" name="android_vendor_xiaomi_whyred" remote="i" revision="arrow-12.0" />
+ <project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred" remote="l" revision="lineage-18.1" />
+ 
 </manifest>
-
