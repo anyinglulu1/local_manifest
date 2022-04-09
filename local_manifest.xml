@@ -5,11 +5,14 @@
  <remote name="a" fetch="https://github.com/anyinglulu1" />
  <remote name="i" fetch="https://github.com/ArrowOS-Devices" />
  <remote name="l" fetch="https://github.com/PixelExperience-Devices" />
+ <remote name="p" fetch="https://github.com/PixelExperience" />
  <remote name="o" fetch="https://github.com/SakilMondal" />
  <!-- Trees -->
  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="a" revision="twelve" />
  <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="a" revision="twelve" />
  <project path="vendor/xiaomi/whyred" name="android_vendor_xiaomi_whyred" remote="i" revision="arrow-12.0" />
  <project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred" remote="l" revision="twelve" />
+ <!-- stuff -->
+ <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="p" revision="twelve" />
  
 </manifest>
