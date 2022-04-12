@@ -16,7 +16,6 @@
  <project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred" remote="l" revision="twelve" clone-depth="1" />
  <project path="vendor/xiaomi/dirac" name="vendor_xiaomi_dirac" remote="lol" revision="11" clone-depth="1" />
  <!-- Stuff -->
- <project path="packages/resources/devicesetting" name="android_packages_apps_Settings" remote="p" revision="lineage-19.1" clone-depth="1" />
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 
 </manifest>
