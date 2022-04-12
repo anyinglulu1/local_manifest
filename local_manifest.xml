@@ -5,16 +5,16 @@
  <remote name="a" fetch="https://github.com/anyinglulu1" />
  <remote name="i" fetch="https://github.com/ArrowOS-Devices" />
  <remote name="l" fetch="https://github.com/PixelExperience-Devices" />
- <remote name="p" fetch="https://github.com/PixelExperience" />
+ <remote name="p" fetch="https://github.com/LineageOS" />
  <remote name="o" fetch="https://github.com/SakilMondal" />
  <remote name="lol" fetch="https://github.com/xiaomi-sdm660" />
  <!-- Trees -->
  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="a" revision="lineage" />
- <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="a" revision="twelve" />
+ <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="a" revision="lineage-19.1" />
  <project path="vendor/xiaomi" name="vendor_xiaomi" remote="o" revision="12.x" />
  <project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred" remote="l" revision="twelve" />
  <project path="vendor/xiaomi/dirac" name="vendor_xiaomi_dirac" remote="lol" revision="11"/>
  <!-- Stuff -->
- <project path="packages/resources/devicesetting" name="packages_resources_devicesettings" remote="p" revision="twelve" />
+ <project path="packages/resources/devicesetting" name="android_packages_apps_Settings" remote="p" revision="lineage-19.1" />
 
 </manifest>
