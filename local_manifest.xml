@@ -14,7 +14,6 @@
  <project path="vendor/xiaomi" name="vendor_xiaomi" remote="lol" revision="twelve" clone-depth="1" />
  <project path="kernel/xiaomi/sdm660" name="whyred" remote="lol" revision="extended-eas" clone-depth="1" />
  <!-- Stuff -->
- <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
  <project path="vendor/xiaomi/dirac" name="vendor_xiaomi_dirac" remote="lol" revision="12"/>
 
 </manifest>
