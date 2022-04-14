@@ -11,7 +11,7 @@
  <remote name="clang" fetch="https://github.com/kdrag0n" />
  <!-- Trees -->
  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="a" revision="twelve" />
- <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="a" revision="twelve" />
+ <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="a" revision="lineage-19.1"" />
  <project path="vendor/xiaomi" name="vendor_xiaomi" remote="o" revision="12.x" />
  <project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred" remote="l" revision="twelve" />
  <!-- Stuff -->
