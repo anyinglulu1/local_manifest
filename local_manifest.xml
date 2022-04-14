@@ -18,7 +18,8 @@
  <project path="vendor/xiaomi/dirac" name="vendor_xiaomi_dirac" remote="lol" revision="11"/>
  
  <!-- Stuff -->
- <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
+ <remove-project name="prebuilts/clang/host/linux-x86/clang-proton" />
+ <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1p />
  <project path="vendor/xiaomi/dirac" name="vendor_xiaomi_dirac" remote="lol" revision="12"/>
  
 </manifest>
