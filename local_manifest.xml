@@ -14,7 +14,5 @@
  <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="a" revision="lineage-19.1" clone-depth="1" />
  <project path="vendor/xiaomi/whyred" name="android_vendor_xiaomi_whyred" remote="lol" revision="lineage-19.0" clone-depth="1" />
  <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_whyred" remote="pzqqt" revision="panda-qrebase" clone-depth="1" />
- <!-- Stuff -->
- <project path="vendor/xiaomi/dirac" name="vendor_xiaomi_dirac" remote="lol" revision="12"/>
 
 </manifest>
