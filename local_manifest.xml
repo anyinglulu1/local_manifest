@@ -6,13 +6,12 @@
  <remote name="l" fetch="https://gitlab.com/anyinglulu1" />
  <remote name="p" fetch="https://github.com/LineageOS" />
  <remote name="o" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
- <remote name="lol" fetch="https://github.com/EdwinMoq" />
+ <remote name="lol" fetch="https://github.com/TheSanty" />
  <remote name="clang" fetch="https://github.com/kdrag0n" />
  <remote name="pzqqt" fetch="https://github.com/Pzqqt" />
  <!-- Trees -->
  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="a" revision="lineage" clone-depth="1" />
  <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="a" revision="lineage-19.1" clone-depth="1" />
- <project path="vendor/xiaomi/whyred" name="android_vendor_xiaomi_whyred" remote="lol" revision="lineage-19.0" clone-depth="1" />
+ <project path="vendor/xiaomi" name="vendor_xiaomi" remote="lol" revision="eleven" clone-depth="1" />
  <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_whyred" remote="pzqqt" revision="panda-qrebase" clone-depth="1" />
- <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="l" revision="main" clone-depth="1" />
 </manifest>
