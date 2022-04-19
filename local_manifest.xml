@@ -14,6 +14,6 @@
  <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="a" revision="lineage-19.1" clone-depth="1" />
  <project path="vendor/xiaomi" name="vendor_xiaomi" remote="lol" revision="eleven" clone-depth="1" />
  <project path="kernel/xiaomi/sdm660" name="mystic_kernel_sdm660-4.4" remote="p" revision="mystic-caf" clone-depth="1" />
- <remove-project name=prebuilts/clang/host/linux-x86/clang-proton" />
+ <remove-project name="prebuilts/clang/host/linux-x86/clang-proton" />
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 </manifest>
