@@ -8,11 +8,11 @@
  <remote name="o" fetch="https://github.com/PixelExperience-Devices" />
  <remote name="lol" fetch="https://github.com/TheSanty" />
  <remote name="clang" fetch="https://github.com/kdrag0n" />
- <remote name="pzqqt" fetch="https://github.com/Pzqqt" />
+ <remote name="pzqqt" fetch="https://github.com/PixelExperience" />
  <!-- Trees -->
  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="a" revision="lineage" clone-depth="1" />
  <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="a" revision="lineage-19.1" clone-depth="1" />
  <project path="vendor/xiaomi" name="vendor_xiaomi" remote="i" revision="12.1" clone-depth="1" />
  <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_whyred" remote="o" revision="twelve" clone-depth="1" />
- <project path="hardware/xiaomi" name="hardware_xiaomi" remote="o" revision="twelve" clone-depth="1" />
+ <project path="hardware/xiaomi" name="hardware_xiaomi" remote="pzqqt" revision="twelve" clone-depth="1" />
 </manifest>
