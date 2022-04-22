@@ -22,7 +22,7 @@
  <remove-project name="android_hardware_qcom_display" />
  <remove-project name="android_hardware_qcom_media" />
  <remove-project name="android_hardware_qcom_wlan" />
- <remove-project name="legacy-um" />
+ <remove-project name="device_qcom_sepolicy-legacy-um" />
  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="GhostMaster69-dev" revision="sdm660" />
  <remove-project name="android_packages_resources_devicesettings" />
  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="linos" revision="lineage-19.1" />
