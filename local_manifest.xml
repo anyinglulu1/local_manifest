@@ -42,7 +42,9 @@
  <remove-project name="frameworks_opt_telephony" />
  
  <remove-project name="packages_apps_Dialer" />
- 
+
+ <remove-project name="android_hardware_xiaomi" />
+
  <!-- stuff -->
  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="GhostMaster69-dev" revision="sdm660" />
  
