@@ -58,5 +58,5 @@
 
  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="awaken" revision="12.1" />
 
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="gs" revision="12.0" />
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="crdroid" revision="12.0" />
 </manifest>
