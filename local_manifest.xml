@@ -28,4 +28,12 @@
  <!-- clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
 
+ <!-- remove stuff -->
+ <remove-project name="android_packages_resources_devicesettings" />
+ <remove-project name="android_hardware_qcom_wlan" />
+
+ <!-- stuff -->
+ <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="linos" revision="lineage-19.1" />
+ <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="GhostMaster69-dev" revision="sdm660" />
+
 </manifest>
