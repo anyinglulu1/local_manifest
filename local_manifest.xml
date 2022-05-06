@@ -16,6 +16,7 @@
  <remote name="octavi" fetch="https://github.com/Octavi-OS" />
  <remote name="awaken" fetch="https://github.com/Project-Awaken" />
  <remote name="crdroid" fetch="https://github.com/crdroidandroid" />
+ <remote name="xyzuan" fetch="https://github.com/xyz-prjkt" />
  <!-- Trees -->
  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="a" revision="lineage" clone-depth="1" />
  
@@ -26,7 +27,7 @@
  <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_whyred" remote="o" revision="twelve" clone-depth="1" />
  
  <!-- clang -->
- <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
+ <project path="prebuilts/clang/host/linux-x86/clang-xRageTC" name="xRageTC-clang" remote="xyzuan" revision="main" />
  
  <!-- remove stuff -->
  <remove-project name="android_packages_resources_devicesettings" />
