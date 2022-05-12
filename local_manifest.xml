@@ -29,21 +29,5 @@
  <!-- clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-xRageTC" name="xRageTC-clang" remote="xyzuan" revision="main" />
  
- <!-- remove stuff -->
- <remove-project name="android_packages_resources_devicesettings" />
- 
- <remove-project name="android_hardware_qcom_wlan" />
- 
- <remove-project name="device_qcom_sepolicy-legacy-um" />
 
- <remove-project name="hardware_xiaomi" />
-
- <!-- stuff -->
- <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="GhostMaster69-dev" revision="sdm660" />
- 
- <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="linos" revision="lineage-19.1" />
- 
- <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="a" revision="spark" />
-
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="linos" revision="lineage-19.1" />
 </manifest>
