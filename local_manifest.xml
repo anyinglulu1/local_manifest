@@ -20,7 +20,7 @@
  <!-- Trees -->
  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="a" revision="lineage" clone-depth="1" />
  
- <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660_common" remote="a" revision="twelve" clone-depth="1" />
+ <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="a" revision="lineage-19.0" clone-depth="1" />
  
  <project path="vendor/xiaomi" name="vendor_xiaomi-1" remote="a" revision="12.1" clone-depth="1" />
  
