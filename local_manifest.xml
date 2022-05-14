@@ -29,5 +29,9 @@
  <!-- clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-xRageTC" name="xRageTC-clang" remote="xyzuan" revision="main" />
  
-
+ <!-- stuff -->
+ <project path="vendor/dirac" name="vendor_dirac" remote="i" revision="12.1" />
+ <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="I" revision="12" />
+ <project path="external/tinyxml" name="external_tinyxml" remote="i" revision="android-11.0.0_r46
+default" />
 </manifest>
