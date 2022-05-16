@@ -16,7 +16,7 @@
  <remote name="octavi" fetch="https://github.com/Octavi-OS" />
  <remote name="awaken" fetch="https://github.com/Project-Awaken" />
  <remote name="crdroid" fetch="https://github.com/crdroidandroid" />
- <remote name="dora" fetch="https://gitlab.com/zlatan" />
+ <remote name="dora" fetch="https://gitlab.com/zlatanr" />
  <!-- Trees -->
  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="a" revision="lineage" clone-depth="1" />
  
