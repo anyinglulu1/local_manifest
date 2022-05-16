@@ -24,11 +24,13 @@
  
  <project path="vendor/xiaomi" name="vendor_xiaomi-1" remote="a" revision="12.1" clone-depth="1" />
  
- <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_whyred-1" remote="a" revision="twelve" clone-depth="1" />
+ <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_whyred-1" remote="linos" revision="twelve" clone-depth="1" />
  
  <!-- clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
  <!-- stuff -->
  <project path="vendor/dirac" name="vendor_dirac" remote="i" revision="12.1" />
  <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="i" revision="12" />
+ <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="linos" revision="lineage-19.1" />
+
 </manifest>
