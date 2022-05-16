@@ -24,7 +24,7 @@
  
  <project path="vendor/xiaomi" name="vendor_xiaomi-1" remote="a" revision="12.1" clone-depth="1" />
  
- <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_whyred-1" remote="linos" revision="twelve" clone-depth="1" />
+ <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_whyred-1" remote="a" revision="twelve" clone-depth="1" />
 
  <remove-project name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
  <!-- clang -->
