@@ -32,5 +32,5 @@
  <project path="vendor/dirac" name="vendor_dirac" remote="i" revision="12.1" />
  <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="i" revision="12" />
  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="linos" revision="lineage-19.1" />
-
+ <remove-project name="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
 </manifest>
