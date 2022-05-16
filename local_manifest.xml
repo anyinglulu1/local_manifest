@@ -27,8 +27,7 @@
  <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_whyred-1" remote="a" revision="twelve" clone-depth="1" />
  
  <!-- clang -->
- <project path="prebuilts/clang/host/linux-x86/clang-dora" name="dora-clang-1" remote="dora" revision="master" />
- 
+ <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
  <!-- stuff -->
  <project path="vendor/dirac" name="vendor_dirac" remote="i" revision="12.1" />
  <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="i" revision="12" />
