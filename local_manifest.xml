@@ -16,7 +16,7 @@
  <remote name="octavi" fetch="https://github.com/Octavi-OS" />
  <remote name="awaken" fetch="https://github.com/Project-Awaken" />
  <remote name="crdroid" fetch="https://github.com/crdroidandroid" />
- <remote name="gitrepo" fetch="https://android.googlesource.com/" />
+ <remote name="gitrepo" fetch="https://github.com/arnavpuranik" />
  <!-- Trees -->
  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="a" revision="lineage" clone-depth="1" />
  
@@ -24,7 +24,8 @@
  
  <project path="vendor/xiaomi" name="vendor_xiaomi-1" remote="a" revision="12.1" clone-depth="1" />
  
- <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_whyred-1" remote="a" revision="twelve" />
+ <project path="kernel/xiaomi/sdm660" name="kernel" remote="gitrepo" revision="nexus-whyred-4.4
+default" />
 
  <!-- clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
