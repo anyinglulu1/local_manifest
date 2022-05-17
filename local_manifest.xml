@@ -24,8 +24,7 @@
  
  <project path="vendor/xiaomi" name="vendor_xiaomi-1" remote="a" revision="12.1" clone-depth="1" />
  
- <project path="kernel/xiaomi/sdm660" name="kernel" remote="gitrepo" revision="nexus-whyred-4.4
-default" />
+ <project path="kernel/xiaomi/sdm660" name="kernel" remote="gitrepo" revision="nexus-whyred-4.4" />
 
  <!-- clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
