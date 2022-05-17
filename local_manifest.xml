@@ -16,7 +16,7 @@
  <remote name="octavi" fetch="https://github.com/Octavi-OS" />
  <remote name="awaken" fetch="https://github.com/Project-Awaken" />
  <remote name="crdroid" fetch="https://github.com/crdroidandroid" />
- <remote name="dora" fetch="https://gitlab.com/zlatanr" />
+ <remote name="gitrepo" fetch="https://android.googlesource.com/" />
  <!-- Trees -->
  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="a" revision="lineage" clone-depth="1" />
  
@@ -26,11 +26,9 @@
  
  <project path="kernel/xiaomi/sdm660" name="Whyred" remote="a" revision="extended-eas-haptics" />
 
- <remove-project name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
  <!-- clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
  <!-- stuff -->
  <project path="vendor/dirac" name="vendor_dirac" remote="i" revision="12.1" />
  <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="i" revision="12" />
- <project path="tmp/rom/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="linos" revision="lineage-19.1" />
 </manifest>
