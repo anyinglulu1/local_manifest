@@ -24,7 +24,7 @@
  
  <project path="vendor/xiaomi" name="vendor_xiaomi-1" remote="a" revision="12.1" clone-depth="1" />
  
- <project path="kernel/xiaomi/sdm660" name="Whyred" remote="a" revision="extended-eas-haptics" />
+ <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_whyred-1" remote="a" revision="twelve" />
 
  <!-- clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
