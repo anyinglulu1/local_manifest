@@ -24,7 +24,7 @@
  
  <project path="vendor/xiaomi" name="vendor_xiaomi-1" remote="a" revision="12.1" clone-depth="1" />
  
- <project path="kernel/xiaomi/sdm660" name="kernel" remote="gitrepo" revision="nexus-whyred-4.4" />
+ <project path="kernel/xiaomi/whyred" name="kernel" remote="gitrepo" revision="nexus-whyred-4.4" />
 
  <!-- stuff -->
  <project path="vendor/dirac" name="vendor_dirac" remote="i" revision="12.1" />
