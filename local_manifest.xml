@@ -18,7 +18,7 @@
  <remote name="crdroid" fetch="https://github.com/crdroidandroid" />
  <remote name="gitrepo" fetch="https://github.com/arnavpuranik" />
  <!-- Trees -->
- <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="a" revision="lineage" clone-depth="1" />
+ <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="a" revision="twelve" clone-depth="1" />
  
  <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="a" revision="lineage-19.1" clone-depth="1" />
  
