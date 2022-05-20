@@ -22,9 +22,9 @@
  
  <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="a" revision="lineage-19.1" clone-depth="1" />
  
- <project path="vendor/xiaomi" name="vendor_xiaomi-1" remote="a" revision="12.1" clone-depth="1" />
+ <project path="vendor/xiaomi" name="vendor_xiaomi" remote="i" revision="12.1" clone-depth="1" />
  
- <project path="kernel/xiaomi/whyred" name="Whyred" remote="a" revision="extended-eas-haptics" />
+ <project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred" remote="o" revision="twelve" />
 
  <!-- stuff -->
  <project path="vendor/dirac" name="vendor_dirac" remote="i" revision="12.1" />
