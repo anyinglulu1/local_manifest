@@ -16,7 +16,7 @@
  <remote name="octavi" fetch="https://github.com/Octavi-OS" />
  <remote name="awaken" fetch="https://github.com/Project-Awaken" />
  <remote name="crdroid" fetch="https://github.com/crdroidandroid" />
- <remote name="dora" fetch="https://gitlab.com/zlatanr" />
+ <remote name="gcc" fetch="https://github.com/mvaisakh" />
  <!-- Trees -->
  <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="a" revision="twelve" clone-depth="1" />
  
@@ -31,5 +31,6 @@
  <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="i" revision="12" />
  <remove-project name="LineageOS/android_hardware_qcom_thermal" />
  <!-- clang -->
- <project path="prebuilts/clang/host/linux-x86/clang-dora" name="dora-clang-1" remote="dora" revision="master" />
+ <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="gcc" revision="gcc-master
+default" />
 </manifest>
