@@ -31,6 +31,5 @@
  <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="i" revision="12" />
  <remove-project name="LineageOS/android_hardware_qcom_thermal" />
  <!-- clang -->
- <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="gcc" revision="gcc-master
-default" />
+ <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="gcc" revision="gcc-master" />
 </manifest>
