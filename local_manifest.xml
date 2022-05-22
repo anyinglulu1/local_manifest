@@ -24,12 +24,12 @@
  
  <project path="vendor/xiaomi" name="vendor_xiaomi" remote="i" revision="12.1" clone-depth="1" />
  
- <project path="kernel/xiaomi/whyred" name="Whyred" remote="a" revision="extended-eas-haptics" />
+ <project path="kernel/xiaomi/whyred" name="Whyred" remote="crdroid" revision="extended-eas-haptics" />
 
  <!-- stuff -->
  <project path="vendor/dirac" name="vendor_dirac" remote="i" revision="12.1" />
  <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="i" revision="12" />
  <remove-project name="LineageOS/android_hardware_qcom_thermal" />
  <!-- clang -->
- <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="gcc" revision="gcc-master" />
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" />
 </manifest>
