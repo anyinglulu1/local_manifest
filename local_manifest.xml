@@ -24,7 +24,7 @@
  
  <project path="vendor/xiaomi" name="vendor_xiaomi" remote="i" revision="12.1" clone-depth="1" />
  
- <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_sdm660" remote="linos" revision="lineage-19.1" />
+ <project path="kernel/xiaomi/whyred" name="Whyred" remote="a" revision="extended-eas-haptics" />
 
  <!-- stuff -->
  <project path="vendor/dirac" name="vendor_dirac" remote="i" revision="12.1" />
