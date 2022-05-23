@@ -29,7 +29,6 @@
  <!-- stuff -->
  <project path="vendor/dirac" name="vendor_dirac" remote="i" revision="12.1" />
  <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="i" revision="12" />
- <remove-project name="LineageOS/android_hardware_qcom_thermal" />
  <!-- clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" />
 </manifest>
