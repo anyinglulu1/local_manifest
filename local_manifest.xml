@@ -22,8 +22,4 @@
  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="a" revision="lineage-19.0" clone-depth="1" />
  <project path="vendor/xiaomi/whyred" name="android_vendor_xiaomi_whyred" remote="edwin" revision="lineage-19.0" clone-depth="1" />
  <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_whyred" remote="edwin" revision="lineage-19.0" />
- <project path="hardware/qcom/sdm660/display" name="platform_hardware_qcom_display" remote="rna" revision="SaltyIceCream" />
- <project path="hardware/qcom/sdm660/audio" name="platform_hardware_qcom_audio" remote="rna" revision="SaltyIceCream" />
- <project path="hardware/qcom/sdm660/media" name="platform_hardware_qcom_media" remote="rna" revision="SaltyIceCream" />
- <project path="hardware/qcom/sdm660/gps" name="platform_hardware_qcom_gps" remote="rna" revision="SaltyIceCream" />
 </manifest>
