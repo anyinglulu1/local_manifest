@@ -19,7 +19,8 @@
  <remote name="gcc" fetch="https://github.com/mvaisakh" />
  <remote name="rna" fetch="https://github.com/AOSP-bouquet" />
  <!-- Trees -->
- <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="a" revision="lineage-19.0" clone-depth="1" />
+ <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="a" revision="12.1" />
  <project path="vendor/xiaomi/whyred" name="android_vendor_xiaomi_whyred" remote="edwin" revision="lineage-19.0" clone-depth="1" />
  <project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred" remote="o" revision="twelve" />
+ <project path="prebuilts/clang/host/linux-x86/clang-azure" name="Panchajanya1999/azure-clang" remote="gitlab" revision="main" />
 </manifest>
