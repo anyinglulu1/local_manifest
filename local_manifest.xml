@@ -16,11 +16,11 @@
  <remote name="octavi" fetch="https://github.com/Octavi-OS" />
  <remote name="awaken" fetch="https://github.com/Project-Awaken" />
  <remote name="edwin" fetch="https://github.com/EdwinMoq" />
- <remote name="gcc" fetch="https://github.com/mvaisakh" />
+ <remote name="gcc" fetch="https://gitlab.com/Panchajanya1999" />
  <remote name="rna" fetch="https://github.com/AOSP-bouquet" />
  <!-- Trees -->
  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="a" revision="12.1" />
  <project path="vendor/xiaomi/whyred" name="android_vendor_xiaomi_whyred" remote="edwin" revision="lineage-19.0" clone-depth="1" />
  <project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred" remote="o" revision="twelve" />
- <project path="prebuilts/clang/host/linux-x86/clang-azure" name="Panchajanya1999/azure-clang" remote="gitlab" revision="main" />
+ <project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="gcc" revision="main" />
 </manifest>
