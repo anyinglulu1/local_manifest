@@ -21,6 +21,6 @@
  <!-- Trees -->
  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="linos" revision="lineage-15.1" />
  <project path="vendor/xiaomi/whyred" name="vendor_xiaomi_whyred" remote="edwin" revision="oreo" clone-depth="1" />
- <project path="kernel/xiaomi/sdm660-common" name="android_kernel_xiaomi_sdm660" remote="linos" revision="lineage-15.1" />
+ <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_sdm660" remote="linos" revision="lineage-15.1" />
  <project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="gcc" revision="main" />
 </manifest>
