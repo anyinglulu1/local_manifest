@@ -20,8 +20,8 @@
  <remote name="rna" fetch="https://github.com/AOSP-bouquet" />
  <!-- Trees -->
  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="a" revision="12.1" />
- <project path="vendor/xiaomi/whyred" name="vendor_xiaomi_whyred" remote="edwin" revision="lineage-19.1" />
- <project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred" remote="edwin" revision="lineage-19.1" />
+ <project path="vendor/xiaomi/whyred" name="android_vendor_xiaomi_whyred" remote="edwin" revision="lineage-19.1" />
+ <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_whyred" remote="edwin" revision="lineage-19.1" />
  <project path="hardware/qcom/sdm660/display" name="android_hardware_qcom_display" remote="edwin" revision="sdm660-4.19" />
  <project path="hardware/qcom/sdm660/audio" name="android_hardware_qcom_audio" remote="edwin" revision="sdm660-4.19" />
  <project path="hardware/qcom/sdm660/media" name="android_hardware_qcom_media" remote="edwin" revision="sdm660-4.19" />
