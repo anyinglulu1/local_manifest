@@ -25,10 +25,10 @@
  <remove-project name="LineageOS/android_hardware_qcom_display" />
  <remove-project name="LineageOS/android_hardware_qcom_media" />
  <remove-project name="LineageOS/android_hardware_qcom_audio" />
- <project path="hardware/qcom/sdm660/display" name="platform_hardware_qcom_display" remote="rna" revision="SaltyIceCream" />
- <project path="hardware/qcom/sdm660/audio" name="platform_hardware_qcom_audio" remote="rna" revision="SaltyIceCream" />
- <project path="hardware/qcom/sdm660/media" name="platform_hardware_qcom_media" remote="rna" revision="SaltyIceCream" />
- <project path="hardware/qcom/sdm660/gps" name="platform_hardware_qcom_gps" remote="rna" revision="SaltyIceCream" />
+ <project path="hardware/qcom-caf/msm8998/display" name="platform_hardware_qcom_display" remote="rna" revision="SaltyIceCream" />
+ <project path="hardware/qcom-caf/msm8998/audio" name="platform_hardware_qcom_audio" remote="rna" revision="SaltyIceCream" />
+ <project path="hardware/qcom-caf/msm8998/media" name="platform_hardware_qcom_media" remote="rna" revision="SaltyIceCream" />
+ <project path="hardware/qcom-caf/msm8998/gps" name="platform_hardware_qcom_gps" remote="rna" revision="SaltyIceCream" />
  <remove-project name="LineageOS/android_packages_resources_devicesettings" />
  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="linos" revision="lineage-18.1" />
 </manifest>
