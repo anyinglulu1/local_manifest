@@ -25,7 +25,6 @@
  <remove-project name="LineageOS/android_hardware_qcom_display" />
  <remove-project name="LineageOS/android_hardware_qcom_media" />
  <remove-project name="LineageOS/android_hardware_qcom_audio" />
- <project path="vendor/xiaomi" name="platform_vendor_xiaomi" remote="rna" revision="SaltyIceCream" />
  <project path="hardware/qcom/sdm660/display" name="platform_hardware_qcom_display" remote="rna" revision="SaltyIceCream" />
  <project path="hardware/qcom/sdm660/audio" name="platform_hardware_qcom_audio" remote="rna" revision="SaltyIceCream" />
  <project path="hardware/qcom/sdm660/media" name="platform_hardware_qcom_media" remote="rna" revision="SaltyIceCream" />
