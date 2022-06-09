@@ -10,7 +10,7 @@
  <remote name="clang" fetch="https://github.com/kdrag0n" />
  <remote name="linos" fetch="https://github.com/LineageOS" />
  <remote name="GhostMaster69-dev" fetch="https://github.com/GhostMaster69-dev" />
- <remote name="pzqqt" fetch="https://github.com/PixelExperience" />
+ <remote name="pzqqt" fetch="https://github.com/Reinazhard" />
  <remote name="x" fetch="https://github.com/RasyidAlKautsar" />
  <remote name="evox" fetch="https://github.com/Evolution-X" />
  <remote name="octavi" fetch="https://github.com/Octavi-OS" />
@@ -21,7 +21,7 @@
  <!-- Trees -->
  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="a" revision="12.1" />
  <project path="vendor/xiaomi/whyred" name="android_vendor_xiaomi_whyred" remote="edwin" revision="lineage-19.1" />
- <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_whyred" remote="edwin" revision="lineage-19.1" />
+ <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_whyred" remote="pzqqt" revision="staging" />
  <remove-project name="LineageOS/android_hardware_qcom_display" />
  <remove-project name="LineageOS/android_hardware_qcom_media" />
  <remove-project name="LineageOS/android_hardware_qcom_audio" />
