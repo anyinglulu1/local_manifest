@@ -7,7 +7,7 @@
  <remote name="p" fetch="https://github.com/okta-10" />
  <remote name="o" fetch="https://github.com/PixelExperience-Devices" />
  <remote name="lol" fetch="https://github.com/TheSanty" />
- <remote name="clang" fetch="https://github.com/kdrag0n" />
+ <remote name="clang" fetch="https://github.com" />
  <remote name="linos" fetch="https://github.com/LineageOS" />
  <remote name="GhostMaster69-dev" fetch="https://github.com/GhostMaster69-dev" />
  <remote name="pzqqt" fetch="https://github.com/Reinazhard" />
@@ -30,4 +30,5 @@
  <project path="hardware/qcom-caf/msm8998/media" name="platform_hardware_qcom_media" remote="rna" revision="SaltyIceCream" />
  <remove-project name="LineageOS/android_packages_resources_devicesettings" />
  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="linos" revision="lineage-18.1" />
+ <project path="prebuilts/gcc/linux-x86/aarch64/arm64-gcc" name="mvaisakh/gcc-arm64" remote="clang" revision="gcc-master" clone-depth="1" />
 </manifest>
