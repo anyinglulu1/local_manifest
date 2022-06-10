@@ -21,7 +21,7 @@
  <!-- Trees -->
  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="a" revision="12.1" />
  <project path="vendor/xiaomi/whyred" name="android_vendor_xiaomi_whyred" remote="edwin" revision="lineage-19.1" />
- <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_whyred" remote="awaken" revision="android12-base" />
+ <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_whyred" remote="awaken" revision="staging" />
  <remove-project name="LineageOS/android_hardware_qcom_display" />
  <remove-project name="LineageOS/android_hardware_qcom_media" />
  <remove-project name="LineageOS/android_hardware_qcom_audio" />
