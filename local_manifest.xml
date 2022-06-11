@@ -6,7 +6,7 @@
  <remote name="l" fetch="https://gitlab.com/anyinglulu1" />
  <remote name="p" fetch="https://github.com/okta-10" />
  <remote name="lol" fetch="https://github.com/TheSanty" />
- <remote name="clang" fetch="https://github.com" />
+ <remote name="clang" fetch="https://github.com/kdrag0n" />
  <remote name="linos" fetch="https://github.com/LineageOS" />
  <remote name="GhostMaster69-dev" fetch="https://github.com/GhostMaster69-dev" />
  <remote name="pzqqt" fetch="https://github.com/Reinazhard" />
@@ -24,6 +24,7 @@
  <remove-project name="LineageOS/android_hardware_qcom_display" />
  <remove-project name="LineageOS/android_hardware_qcom_media" />
  <remove-project name="LineageOS/android_hardware_qcom_audio" />
+ <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
  <project path="hardware/qcom-caf/msm8998/display" name="platform_hardware_qcom_display" remote="rna" revision="SaltyIceCream" />
  <project path="hardware/qcom-caf/msm8998/audio" name="platform_hardware_qcom_audio" remote="rna" revision="SaltyIceCream" />
  <project path="hardware/qcom-caf/msm8998/media" name="platform_hardware_qcom_media" remote="rna" revision="SaltyIceCream" />
