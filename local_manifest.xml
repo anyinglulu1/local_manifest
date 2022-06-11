@@ -5,7 +5,6 @@
  <remote name="i" fetch="https://github.com/SALMANKHANPM" />
  <remote name="l" fetch="https://gitlab.com/anyinglulu1" />
  <remote name="p" fetch="https://github.com/okta-10" />
- <remote name="o" fetch="https://github.com/PixelExperience-Devices" />
  <remote name="lol" fetch="https://github.com/TheSanty" />
  <remote name="clang" fetch="https://github.com" />
  <remote name="linos" fetch="https://github.com/LineageOS" />
@@ -21,7 +20,7 @@
  <!-- Trees -->
  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="a" revision="12.1" />
  <project path="vendor/xiaomi/whyred" name="android_vendor_xiaomi_whyred" remote="edwin" revision="lineage-19.1" />
- <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_whyred" remote="awaken" revision="staging" />
+ <project path="kernel/xiaomi/whyred" name="mystic_kernel_sdm660-4.19" remote="p" revision="kernel.lnx.4.19.r10-rel" />
  <remove-project name="LineageOS/android_hardware_qcom_display" />
  <remove-project name="LineageOS/android_hardware_qcom_media" />
  <remove-project name="LineageOS/android_hardware_qcom_audio" />
