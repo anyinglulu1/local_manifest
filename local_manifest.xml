@@ -29,5 +29,4 @@
  <project path="hardware/qcom-caf/msm8998/media" name="platform_hardware_qcom_media" remote="rna" revision="SaltyIceCream" />
  <remove-project name="LineageOS/android_packages_resources_devicesettings" />
  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="linos" revision="lineage-18.1" />
- <project path="prebuilts/gcc/linux-x86/aarch64/arm64-gcc" name="mvaisakh/gcc-arm64" remote="clang" revision="gcc-master" clone-depth="1" />
 </manifest>
