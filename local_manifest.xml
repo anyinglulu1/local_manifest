@@ -17,10 +17,11 @@
  <remote name="edwin" fetch="https://github.com/EdwinMoq" />
  <remote name="gcc" fetch="https://gitlab.com/Panchajanya1999" />
  <remote name="rna" fetch="https://github.com/AOSP-bouquet" />
+ <remote name="nerdaf" fetch="https://github.com/datnerdguy" />
  <!-- Trees -->
  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="a" revision="12.1" />
  <project path="vendor/xiaomi/whyred" name="android_vendor_xiaomi_whyred" remote="edwin" revision="lineage-19.1" />
- <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_whyred" remote="a" revision="lineage-19.1" />
+ <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_whyred" remote="nerdaf" revision="sapphire" />
  <remove-project name="LineageOS/android_hardware_qcom_display" />
  <remove-project name="LineageOS/android_hardware_qcom_media" />
  <remove-project name="LineageOS/android_hardware_qcom_audio" />
