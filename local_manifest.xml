@@ -26,7 +26,7 @@
  <remove-project name="LineageOS/android_hardware_qcom_media" />
  <remove-project name="LineageOS/android_hardware_qcom_audio" />
  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
- <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="x" revision="sdm660-4.19-S" />
+ <project path="hardware/qcom-caf/msm8998/display" name="platform_hardware_qcom_display" remote="a" revision="SaltyIceCream" />
  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="x" revision="sdm660-4.19-S" />
  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="x" revision="sdm660-4.19-S" />
 </manifest>
