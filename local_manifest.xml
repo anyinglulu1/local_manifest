@@ -21,5 +21,6 @@
  <!-- Trees -->
  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="a" revision="rice" />
  <project path="vendor/xiaomi/whyred" name="android_vendor_xiaomi_whyred" remote="a" revision="cr-9.0" />
- <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_whyred" remote="rna" revision="extended-eas" />
+ <project path="kernel/xiaomi/whyred" name="Whyred" remote="rna" revision="extended-eas" />
+
 </manifest>
