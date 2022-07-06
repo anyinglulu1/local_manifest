@@ -13,5 +13,10 @@
  <!-- Trees -->
  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="i" revision="12.1" />
  <project path="vendor/xiaomi/whyred" name="android_vendor_xiaomi_whyred" remote="lol" revision="arrow-12.1" />
- <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_whyred" remote="lol" revision="staging/arrow-12.1" />
+ <project path="kernel/xiaomi/whyred" name="Whyred" remote="a" revision="extended-eas" />
+
+<!-- Custom Clang -->
+ <remote  name="clang"fetch="https://github.com/kdrag0n" />
+ <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
+
 </manifest>
