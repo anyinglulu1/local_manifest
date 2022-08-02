@@ -26,9 +26,9 @@
  <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_whyred" remote="nerdaf" revision="sapphire" />
 
  <!-- Add Hals -->
- <remove-project name="hardware/qcom-caf/msm8998/audio"/>
- <remove-project name="hardware/qcom-caf/msm8998/display"/>
- <remove-project name="hardware/qcom-caf/msm8998/media"/>
+ <remove-project name="android_hardware_qcom_audio"/>
+ <remove-project name="android_hardware_qcom_display"/>
+ <remove-project name="android_hardware_qcom_media" />
  <project path="hardware/qcom-caf/msm8998/audio" name="platform_hardware_qcom_audio" remote="x" revision="SaltyIceCream" />
  <project path="hardware/qcom-caf/msm8998/display" name="platform_hardware_qcom_display" remote="x" revision="SaltyIceCream" />
  <project path="hardware/qcom-caf/msm8998/media" name="platform_hardware_qcom_media" remote="x" revision="SaltyIceCream" />
