@@ -10,17 +10,24 @@
  <remote name="linos" fetch="https://github.com/LineageOS" />
  <remote name="GhostMaster69-dev" fetch="https://github.com/GhostMaster69-dev" />
  <remote name="pzqqt" fetch="https://github.com/Reinazhard" />
- <remote name="x" fetch="https://gitlab.com/asus-sdm660-4.19" />
+ <remote name="x" fetch="https://github.com/AOSP-bouquet" />
  <remote name="evox" fetch="https://github.com/Evolution-X" />
  <remote name="octavi" fetch="https://github.com/Octavi-OS" />
  <remote name="awaken" fetch="https://github.com/Idklollollol" />
  <remote name="edwin" fetch="https://github.com/EdwinMoq" />
  <remote name="gcc" fetch="https://gitlab.com/Panchajanya1999" />
  <remote name="rna" fetch="https://github.com/fernandobouchet" />
- <remote name="nerdaf" fetch="https://github.com/datnerdguy" />
+ <remote name="nerdaf" fetch="https://github.com/Fork-AOSPA" />
  <!-- Trees -->
- <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="a" revision="rice" />
- <project path="vendor/xiaomi/whyred" name="android_vendor_xiaomi_whyred" remote="a" revision="cr-9.0" />
- <project path="kernel/xiaomi/whyred" name="Whyred" remote="rna" revision="extended-eas" />
+ <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="a" revision="lineage-19.1" />
+ <project path="vendor/xiaomi/whyred" name="vendor_xiaomi_whyred" remote="a" revision="lineage-19.1" />
+
+ <!-- Kernel -->
+ <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_whyred" remote="nerdaf" revision="sapphire" />
+
+ <!-- Add Hals -->
+ <project path="hardware/qcom-caf/msm8998/audio" name="platform_hardware_qcom_audio" remote="x" revision="SaltyIceCream" />
+ <project path="hardware/qcom-caf/msm8998/display" name="platform_hardware_qcom_display" remote="x" revision="SaltyIceCream" />
+ <project path="hardware/qcom-caf/msm8998/media" name="platform_hardware_qcom_media" remote="x" revision="SaltyIceCream" /
 
 </manifest>
