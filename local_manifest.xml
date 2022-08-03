@@ -15,7 +15,7 @@
  <remote name="octavi" fetch="https://github.com/Octavi-OS" />
  <remote name="awaken" fetch="https://github.com/Idklollollol" />
  <remote name="edwin" fetch="https://github.com/EdwinMoq" />
- <remote name="gcc" fetch="https://gitlab.com/Panchajanya1999" />
+ <remote name="gcc" fetch="https://github.com/mvaisakh" />
  <remote name="rna" fetch="https://github.com/fernandobouchet" />
  <remote name="nerdaf" fetch="https://github.com/Fork-AOSPA" />
  <!-- Trees -->
@@ -32,5 +32,6 @@
  <project path="hardware/qcom-caf/msm8998/audio" name="platform_hardware_qcom_audio" remote="x" revision="SaltyIceCream" />
  <project path="hardware/qcom-caf/msm8998/display" name="platform_hardware_qcom_display" remote="x" revision="SaltyIceCream" />
  <project path="hardware/qcom-caf/msm8998/media" name="platform_hardware_qcom_media" remote="x" revision="SaltyIceCream" />
+ <project path="prebuilts/gcc/linux-x86/aarch64/arm64-gcc" name="gcc-arm64" remote="gcc" revision="gcc-master" clone-depth="1" />
  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="linos" revision="lineage-19.1" />
 </manifest>
