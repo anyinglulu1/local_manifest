@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>
- <!-- remotes -->
- <remote name="a" fetch="https://github.com/anyinglulu1" />
- <remote name="i" fetch="https://github.com/SALMANKHANPM" />
- <remote name="l" fetch="https://gitlab.com/anyinglulu1" />
- <remote name="p" fetch="https://github.com/okta-10" />
- <remote name="lol" fetch="https://github.com/TheSanty" />
- <remote name="clang" fetch="https://github.com/kdrag0n" />
- <remote name="linos" fetch="https://github.com/LineageOS" />
- <remote name="GhostMaster69-dev" fetch="https://github.com/GhostMaster69-dev" />
- <remote name="pzqqt" fetch="https://github.com/Reinazhard" />
- <remote name="x" fetch="https://gitlab.com/asus-sdm660-4.19" />
- <remote name="evox" fetch="https://github.com/Evolution-X" />
- <remote name="octavi" fetch="https://github.com/Octavi-OS" />
- <remote name="awaken" fetch="https://github.com/Idklollollol" />
- <remote name="edwin" fetch="https://github.com/EdwinMoq" />
- <remote name="gcc" fetch="https://gitlab.com/Panchajanya1999" />
- <remote name="rna" fetch="https://github.com/fernandobouchet" />
- <remote name="nerdaf" fetch="https://github.com/datnerdguy" />
- <!-- Trees -->
- <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="a" revision="rice" />
- <project path="vendor/xiaomi/whyred" name="android_vendor_xiaomi_whyred" remote="a" revision="cr-9.0" />
- <project path="kernel/xiaomi/whyred" name="Whyred" remote="rna" revision="extended-eas" />
 
-</manifest>
+<manifest>
+
+<remote name="hub"
+        fetch="https://github.com" />
+<remote name=""
+         fetch="" />
+ <remote name="lab"
+          fetch="https://gitlab.com" />  
+    
+  <!-- Device Trees -->
+  <project path="device/xiaomi/merlinx" name="crdroidandroid/android_device_xiaomi_merlinx.git" remote="hub" revision="14.0"  /> 
+        
+  <!-- Common Device Tree -->
+  <project path="device/xiaomi/mt6768-common" name="crdroidandroid/android_device_xiaomi_mt6768-common.git" remote="hub" revision="14.0"  />
+  
+  <!-- Kernel Trees-->
+  <project path="kernel/xiaomi/mt6768" name="MT6768Lab/KernelTree.git" remote="lab" revision="13" clone-depth="1" />
+
+  <!-- Vendor Trees -->
+  <project path="vendor/xiaomi" name="crdroidandroid/proprietary_vendor_xiaomi_mt6768.git" remote="hub" revision="14.0"  />
+  
+  <!-- Hardware -->
+  <project path="hardware/mediatek" name="DroidX-UI/hardware_mediatek.git" remote="hub" revision="14"  />
+        
+  <!-- Clang -->
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="clang" revision="master"  />
+  
+  <!-- Sepolicy -->
+  <project path="device/mediatek/sepolicy_vndr" name="SuperiorOS/android_device_mediatek_sepolicy_vndr.git" remote="hub" revision="fourteen"  />
+  
+  </manifest>
