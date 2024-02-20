@@ -13,7 +13,7 @@
 
  <remote name="superior"
           fetch="https://github.com/SuperiorOS" />
- <remote name="github"
+ <remote name="gh"
         fetch="https://github.com" />
         
   <!-- Device Trees -->
@@ -26,7 +26,7 @@
   <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768" remote="lab" revision="lineage-21"  />
         
   <!-- hardware -->
-  <project path="hardware/mediatek" name="DroidX-UI/hardware_mediatek.git" remote="github" revision="14"  />
+  <project path="hardware/mediatek" name="DroidX-UI/hardware_mediatek.git" remote="gh" revision="14"  />
         
   <!-- Vendor Trees -->
   <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common" remote="lab" revision="lineage-21" />
