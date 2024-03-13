@@ -28,7 +28,7 @@
   <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang.git" remote="clang" revision="clang-16" clone-depth="1" />
 
   <!-- hardware -->
-  <project path="hardware/mediatek" name="hardware_mediatek.git" remote="gh" revision="lineage-21" clone-depth="1" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="gh" revision="lineage-21" clone-depth="1" />
         
   <!-- Vendor Trees -->
   <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common" remote="lab" revision="lineage-21" clone-depth="1" />
