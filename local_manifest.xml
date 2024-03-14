@@ -25,7 +25,6 @@
   
   <!-- Kernel Trees-->
   <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768" remote="lab" revision="lineage-21" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang.git" remote="clang" revision="clang-16" clone-depth="1" />
 
   <!-- hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="gh" revision="lineage-21" clone-depth="1" />
