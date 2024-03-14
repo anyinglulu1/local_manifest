@@ -34,7 +34,4 @@
   <project path="vendor/xiaomi/merlinx" name="proprietary_vendor_xiaomi_merlinx" remote="lab" revision="lineage-21" clone-depth="1" />
   <!-- Sepolicy -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="gh" revision="lineage-21" clone-depth="1" />
-  <!--remove repo -->
-  <remove-project name="platform/prebuilts/rust" />
-  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   </manifest>
