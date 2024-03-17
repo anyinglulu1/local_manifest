@@ -6,7 +6,7 @@
   <remote name="lab" fetch="https://github.com/mt6768-dev" />
   <remote name="clang" fetch="https://gitlab.com/LeCmnGend" />
   <remote name="superior" fetch="https://github.com/SuperiorOS" />
-  <remote name="gh" fetch="https://github.com/xiaomi-mediatek-devs" />
+  <remote name="gh" fetch="https://github.com/nashc-dev" />
 
   <project
     path="device/xiaomi/merlinx"
@@ -35,7 +35,7 @@
     path="hardware/mediatek"
     name="android_hardware_mediatek"
     remote="gh"
-    revision="lineage-21"
+    revision="lineage-20"
     clone-depth="1"
   />
 
@@ -57,8 +57,8 @@
   <project
     path="device/mediatek/sepolicy_vndr"
     name="android_device_mediatek_sepolicy_vndr"
-    remote="gh"
-    revision="lineage-21"
+    remote="superior"
+    revision="fourteen"
     clone-depth="1"
   />
 
