@@ -12,14 +12,14 @@
     path="device/xiaomi/merlinx"
     name="android_device_xiaomi_merlinx"
     remote="hub"
-    revision="ursamoon"
+    revision="a14"
     clone-depth="1"
   />
   <project
     path="device/xiaomi/mt6768-common"
     name="android_device_xiaomi_mt6768-common"
     remote="hub"
-    revision="ursamoon"
+    revision="a14"
     clone-depth="1"
   />
 
