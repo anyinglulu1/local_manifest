@@ -4,7 +4,7 @@
 
   <remote name="hub" fetch="https://github.com/anyinglulu1" />
   <remote name="lab" fetch="https://github.com/mt6768-dev" />
-  <remote name="clang" fetch="https://gitlab.com/LeCmnGend" />
+  <remote name="droidx" fetch="https://github.com/DroidX-UI" />
   <remote name="superior" fetch="https://github.com/SuperiorOS" />
   <remote name="gh" fetch="https://github.com/nashc-dev" />
 
@@ -33,9 +33,9 @@
 
   <project
     path="hardware/mediatek"
-    name="android_hardware_mediatek"
-    remote="gh"
-    revision="lineage-20"
+    name="hardware_mediatek"
+    remote="droidx"
+    revision="14"
     clone-depth="1"
   />
 
