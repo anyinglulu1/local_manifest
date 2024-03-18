@@ -5,7 +5,7 @@
   <remote name="hub" fetch="https://github.com/anyinglulu1" />
   <remote name="lab" fetch="https://github.com/mt6768-dev" />
   <remote name="droidx" fetch="https://github.com/DroidX-UI" />
-  <remote name="pq" fetch="https://github.com/PQEnablers-Devices" />
+  <remote name="mediatek-dev" fetch="https://github.com/xiaomi-mediatek-devs" />
   <remote name="gh" fetch="https://github.com/nashc-dev" />
 
   <project
@@ -34,7 +34,7 @@
   <project
     path="hardware/mediatek"
     name="android_hardware_mediatek"
-    remote="pq"
+    remote="mediatek-dev"
     revision="lineage-21"
     clone-depth="1"
   />
@@ -57,8 +57,8 @@
   <project
     path="device/mediatek/sepolicy_vndr"
     name="android_device_mediatek_sepolicy_vndr"
-    remote="superior"
-    revision="fourteen"
+    remote="mediatek-dev"
+    revision="lineage-21"
     clone-depth="1"
   />
 
