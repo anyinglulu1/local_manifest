@@ -4,7 +4,6 @@
 
   <remote name="hub" fetch="https://github.com/anyinglulu1" />
   <remote name="lab" fetch="https://github.com/mt6768-dev" />
-  <remote name="droidx" fetch="https://github.com/DroidX-UI" />
   <remote name="mediatek-dev" fetch="https://github.com/xiaomi-mediatek-devs" />
   <remote name="gl" fetch="https://gitlab.com" />
 
@@ -62,5 +61,13 @@
     clone-depth="1"
   />
 
+  <project
+    path="hardware/xiaomi" 
+    name="orkunergun/android_hardware_xiaomi" 
+    remote="github" 
+    revision="lineage-21" 
+    clone-depth="1"
+    />
+  
 </manifest>
 
