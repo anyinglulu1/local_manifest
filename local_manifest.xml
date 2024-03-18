@@ -6,7 +6,7 @@
   <remote name="lab" fetch="https://github.com/mt6768-dev" />
   <remote name="droidx" fetch="https://github.com/DroidX-UI" />
   <remote name="mediatek-dev" fetch="https://github.com/xiaomi-mediatek-devs" />
-  <remote name="gh" fetch="https://github.com/nashc-dev" />
+  <remote name="gl" fetch="https://gitlab.com" />
 
   <project
     path="device/xiaomi/merlinx"
@@ -25,9 +25,9 @@
 
   <project
     path="kernel/xiaomi/mt6768"
-    name="android_kernel_xiaomi_mt6768"
-    remote="lab"
-    revision="lineage-21"
+    name="MT6768Lab/KernelTree.git"
+    remote="gl"
+    revision="13-stable"
     clone-depth="1"
   />
 
