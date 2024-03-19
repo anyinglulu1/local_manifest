@@ -6,7 +6,7 @@
   <remote name="lab" fetch="https://github.com/mt6768-dev" />
   <remote name="mediatek-dev" fetch="https://github.com/xiaomi-mediatek-devs" />
   <remote name="gl" fetch="https://gitlab.com" />
-  <remote name="los" fetch="https://github.com/LineageOS" />
+  <remote name="aospa" fetch="https://github.com/AOSPA" />
   
   <project
     path="device/xiaomi/merlinx"
@@ -65,8 +65,8 @@
   <project
     path="hardware/xiaomi" 
     name="android_hardware_xiaomi" 
-    remote="los" 
-    revision="lineage-21" 
+    remote="aospa" 
+    revision="uvite" 
     clone-depth="1"
     />
   
