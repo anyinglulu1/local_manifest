@@ -7,8 +7,6 @@
   <remote name="mediatek-dev" fetch="https://github.com/xiaomi-mediatek-devs" />
   <remote name="gl" fetch="https://gitlab.com" />
   <remote name="los" fetch="https://github.com/LineageOS" />
-  <remote name="clang"  
-        fetch="https://gitlab.com/LeCmnGend"/>
   
   <project
     path="device/xiaomi/merlinx"
@@ -71,13 +69,6 @@
     revision="lineage-21" 
     clone-depth="1"
     />
-  
-<project path="prebuilts/clang/host/linux-x86/proton-clang" 
-  name="proton-clang.git" 
-  remote="clang" 
-  revision="clang-16" 
-  clone-depth="1"
-  />
   
 </manifest>
 
