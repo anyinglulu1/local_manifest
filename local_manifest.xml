@@ -7,7 +7,7 @@
   <remote name="mediatek-dev" fetch="https://github.com/xiaomi-mediatek-devs" />
   <remote name="gl" fetch="https://gitlab.com" />
   <remote name="aospa" fetch="https://github.com/AOSPA" />
-  
+  <remote name="orku" fetch="https://github.com/orkunsdumps" />
   <project
     path="device/xiaomi/merlinx"
     name="android_device_xiaomi_merlinx"
@@ -34,8 +34,8 @@
   <project
     path="hardware/mediatek"
     name="android_hardware_mediatek"
-    remote="mediatek-dev"
-    revision="lineage-21"
+    remote="orku"
+    revision="lineage-20"
     clone-depth="1"
   />
 
