@@ -2,73 +2,52 @@
 
 <manifest>
 
-  <remote name="hub" fetch="https://github.com/anyinglulu1" />
-  <remote name="lab" fetch="https://github.com/mt6768-dev" />
-  <remote name="mediatek-dev" fetch="https://github.com/xiaomi-mediatek-devs" />
+  <remote name="me" fetch="https://github.com/anyinglulu1" /> 
+  <remote name="device_lab" fetch="https://github.com/mt6768-dev" />
+  <remote name="mediatek_components" fetch="https://github.com/xiaomi-mediatek-devs" />
+
   <remote name="gl" fetch="https://gitlab.com" />
-  <remote name="aospa" fetch="https://github.com/AOSPA" />
-  <remote name="orku" fetch="https://github.com/orkunsdumps" />
-  <project
-    path="device/xiaomi/merlinx"
-    name="android_device_xiaomi_merlinx"
-    remote="hub"
-    revision="a14"
-    clone-depth="1"
-  />
-  <project
-    path="device/xiaomi/mt6768-common"
-    name="android_device_xiaomi_mt6768-common"
-    remote="hub"
-    revision="a14"
-    clone-depth="1"
-  />
-
-  <project
-    path="kernel/xiaomi/mt6768"
-    name="MT6768Lab/KernelTree.git"
-    remote="gl"
-    revision="13"
-    clone-depth="1"
-  />
-
-  <project
-    path="hardware/mediatek"
-    name="android_hardware_mediatek"
-    remote="orku"
-    revision="lineage-20"
-    clone-depth="1"
-  />
-
-  <project
-    path="vendor/xiaomi/mt6768-common"
-    name="proprietary_vendor_xiaomi_mt6768-common"
-    remote="lab"
-    revision="lineage-21"
-    clone-depth="1"
-  />
-  <project
-    path="vendor/xiaomi/merlinx"
-    name="proprietary_vendor_xiaomi_merlinx"
-    remote="lab"
-    revision="lineage-21"
-    clone-depth="1"
-  />
-
-  <project
-    path="device/mediatek/sepolicy_vndr"
-    name="android_device_mediatek_sepolicy_vndr"
-    remote="mediatek-dev"
-    revision="lineage-21"
-    clone-depth="1"
-  />
-
-  <project
-    path="hardware/xiaomi" 
-    name="android_hardware_xiaomi" 
-    remote="aospa" 
-    revision="uvite" 
-    clone-depth="1"
-    />
   
-</manifest>
+  <project path="device/xiaomi/merlinx" 
+           name="android_device_xiaomi_merlinx"
+           remote="me"
+           revision="a14"
+           clone-depth="1" />
 
+  <project path="device/xiaomi/mt6768-common" 
+           name="android_device_xiaomi_mt6768-common"
+           remote="me"
+           revision="a14" 
+           clone-depth="1" />
+
+  <project path="kernel/xiaomi/mt6768" 
+           name="MT6768Lab/KernelTree.git"
+           remote="gl" 
+           revision="13-stable"
+           clone-depth="1" /> 
+
+  <project path="hardware/mediatek" 
+           name="android_hardware_mediatek"
+           remote="mediatek_components"
+           revision="lineage-21" 
+           clone-depth="1" />
+
+  <project path="vendor/xiaomi/mt6768-common" 
+           name="proprietary_vendor_xiaomi_mt6768-common"
+           remote="device_lab" 
+           revision="lineage-21" 
+           clone-depth="1" />
+
+  <project path="vendor/xiaomi/merlinx" 
+           name="proprietary_vendor_xiaomi_merlinx"
+           remote="device_lab" 
+           revision="lineage-21" 
+           clone-depth="1" />
+
+  <project path="device/mediatek/sepolicy_vndr" 
+           name="android_device_mediatek_sepolicy_vndr"
+           remote="mediatek_components" 
+           revision="lineage-21"
+           clone-depth="1" />
+
+</manifest>
