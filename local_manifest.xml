@@ -5,7 +5,7 @@
   <remote name="me" fetch="https://github.com/anyinglulu1" /> 
   <remote name="device_lab" fetch="https://github.com/mt6768-dev" />
   <remote name="mediatek_components" fetch="https://github.com/xiaomi-mediatek-devs" />
-
+  <remote name="clang"  fetch="https://gitlab.com/LeCmnGend"/>
   <remote name="gl" fetch="https://gitlab.com" />
   
   <project path="device/xiaomi/merlinx" 
@@ -49,5 +49,11 @@
            remote="mediatek_components" 
            revision="lineage-21"
            clone-depth="1" />
+
+  <project path="prebuilts/clang/host/linux-x86/proton-clang" 
+   name="proton-clang.git" 
+   remote="clang" 
+   revision="clang-16" 
+   clone-depth="1" />
 
 </manifest>
