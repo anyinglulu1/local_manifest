@@ -23,7 +23,7 @@
   <project path="kernel/xiaomi/mt6768" 
            name="MT6768Lab/KernelTree.git"
            remote="gl" 
-           revision="13-stable"
+           revision="13"
            clone-depth="1" /> 
 
   <project path="hardware/mediatek" 
