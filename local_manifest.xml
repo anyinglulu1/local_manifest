@@ -7,6 +7,7 @@
   <remote name="mediatek_components" fetch="https://github.com/xiaomi-mediatek-devs" />
   <remote name="clang"  fetch="https://gitlab.com/LeCmnGend"/>
   <remote name="gl" fetch="https://gitlab.com" />
+  <remote name="pixel" fetch="https://github.com/PixelExperience" />
   
   <project path="device/xiaomi/merlinx" 
            name="android_device_xiaomi_merlinx"
@@ -55,5 +56,14 @@
    remote="clang" 
    revision="clang-16" 
    clone-depth="1" />
+
+  <!-- Remove -->
+  <remove-project name="platform/hardware/google/pixel" />
+
+  <project path="platform/hardware/google/pixel"
+           name="hardware_google_pixel"
+           remote="pixel"
+           revision="fourteen"
+           clone-depth="1" />
 
 </manifest>
