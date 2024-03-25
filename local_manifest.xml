@@ -57,4 +57,10 @@
    revision="clang-16" 
    clone-depth="1" />
 
+  <project path="device/hardware/xiaomi" 
+   name="android_hardware_xiaomi" 
+   remote="device_lab" 
+   revision="lineage-21" 
+   clone-depth="1" />
+  
 </manifest>
