@@ -57,9 +57,6 @@
    revision="clang-16" 
    clone-depth="1" />
 
-  <!-- Remove -->
-  <remove-project name="platform/hardware/google/pixel" />
-
   <project path="platform/hardware/google/pixel"
            name="hardware_google_pixel"
            remote="pixel"
