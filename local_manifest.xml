@@ -35,7 +35,7 @@
 
   <project path="vendor/xiaomi/mt6768-common" 
            name="proprietary_vendor_xiaomi_mt6768-common"
-           remote="device_lab" 
+           remote="me" 
            revision="lineage-21" 
            clone-depth="1" />
 
